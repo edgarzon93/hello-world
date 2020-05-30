@@ -1,0 +1,204 @@
+<mat-toolbar color="primary">
+    <mat-toolbar-row>
+        <img src="../assets/images/Fosil-logo-white.png" style='width:50px;' alt="">
+        <span style='margin-left:10px'>Fosil</span>
+        <span class="example-spacer"></span>
+        <!--  <mat-icon class="example-icon" aria-hidden="false" aria-label="Example heart icon">favorite</mat-icon> -->
+        <mat-icon [matMenuTriggerFor]="menu" matRipple class="menu_more_vert" aria-hidden="false"
+            aria-label="Example delete icon">more_vert</mat-icon>
+        <mat-menu #menu="matMenu">
+            <button mat-menu-item>
+                <mat-icon aria-hidden="false" aria-label="Example home icon">power_settings_new</mat-icon>
+                Logout
+            </button>
+        </mat-menu>
+    </mat-toolbar-row>
+</mat-toolbar>
+
+<div class="container margin">
+   
+
+      <div style='display: flex; width: 100%; '>
+        <div style='flex:10'>
+            <mat-tab-group>
+                <mat-tab label="Basica ">
+
+               <!-- <div style='display: flex; align-content: space-around; height: 50vh; margin-top: 7vh;'> -->
+                    <div style='display: flex; justify-content: space-around; flex-wrap: wrap; margin-top: 7vh;'>
+                        
+                        <div style='flex:1; margin-left: 5px;'>
+                            <mat-form-field>
+                                <input type="text" matInput placeholder="Nombre completo">
+                            </mat-form-field>
+                        </div>
+
+                        <div style='flex:1; margin-left: 5px;'>
+                            <mat-form-field>
+                                <input type="text" matInput placeholder="Cedula">
+                            </mat-form-field>
+                        </div>
+
+                        <div style='flex:1; margin-left: 5px;'>
+                            <mat-form-field>
+                                <input type="text" matInput placeholder="Area">
+                            </mat-form-field>
+                        </div>
+
+                        <div style='flex:1; margin-left: 5px;'>
+                            <mat-form-field>
+                                <input type="text" matInput placeholder="Cargo">
+                            </mat-form-field>
+                        </div>
+
+                    </div>
+
+                    <div style='display: flex; justify-content: space-around; flex-wrap: wrap; margin-top: 5vh;'>
+                        
+                        <div style='flex:1; margin-left: 5px;'>
+                            <mat-form-field>
+                                <input type="text" matInput placeholder="Pais">
+                            </mat-form-field>
+                        </div>
+
+                        <div style='flex:1; margin-left: 5px;'>
+                            <mat-form-field>
+                                <input type="text" matInput placeholder="Departamento">
+                            </mat-form-field>
+                        </div>
+
+                        <div style='flex:1; margin-left: 5px;'>
+                            <mat-form-field>
+                                <input type="text" matInput placeholder="Ciudad">
+                            </mat-form-field>
+                        </div>
+
+                        <div style='flex:1; margin-left: 5px;'>
+                            <mat-form-field>
+                                <input type="text" matInput placeholder="Direccion">
+                            </mat-form-field>
+                        </div>
+
+                    </div>
+
+                    <div style='display: flex; justify-content: space-around; flex-wrap: wrap; margin-top: 5vh;'>
+                        
+                        <div style='flex:1; margin-left: 5px;'>
+                            <mat-form-field>
+                                <input type="text" matInput placeholder="Telefono">
+                            </mat-form-field>
+                        </div>
+
+                        <div style='flex:1; margin-left: 5px;'>
+                            <mat-form-field>
+                                <input type="text" matInput placeholder="Correo">
+                            </mat-form-field>
+                        </div>
+
+                        <div style='flex:1; margin-left: 5px;'>
+                            <mat-form-field>
+                                <input type="text" matInput placeholder="Fecha de nacimiento">
+                            </mat-form-field>
+                        </div>
+
+                        <div style='flex:1; margin-left: 5px;'>
+                            <mat-form-field>
+                                <input type="text" matInput placeholder="Sexo">
+                            </mat-form-field>
+                        </div>
+
+                    </div>
+               <!-- </div> -->
+
+                </mat-tab>
+                
+                <mat-tab label=" Adicional">
+                    <div style='display: flex; justify-content: space-around; flex-wrap: wrap;'>
+                    
+                        <div style='flex:1; margin-left: 5px;'>
+                            <mat-form-field>
+                                <input type="text" matInput placeholder="Fecha de ingreso">
+                            </mat-form-field>
+                        </div>
+    
+                        <div style='flex:1; margin-left: 5px;'>
+                            <mat-form-field>
+                                <input type="text" matInput placeholder="EPS">
+                            </mat-form-field>
+                        </div>
+    
+                        <div style='flex:1; margin-left: 5px;'>
+                            <mat-form-field>
+                                <input type="text" matInput placeholder="ARL">
+                            </mat-form-field>
+                        </div>
+    
+                        <div style='flex:1; margin-left: 5px;'>
+                            <mat-form-field>
+                                <input type="text" matInput placeholder="Tipo de sangre">
+                            </mat-form-field>
+                        </div>
+                    </div>
+    
+                    <div style='display: flex; justify-content: space-around; flex-wrap: wrap;'>
+                        
+                        <div style='flex:1; margin-left: 5px;'>
+                            <mat-form-field>
+                                <input type="text" matInput placeholder="Contacto de emergencia">
+                            </mat-form-field>
+                        </div>
+    
+                        <div style='flex:1; margin-left: 5px;'>
+                            <mat-form-field>
+                                <input type="text" matInput placeholder="Telefono contacto de emergencia">
+                            </mat-form-field>
+                        </div>    
+                       
+                    </div>
+
+                    <div style='display: flex; justify-content: space-around; flex-wrap: wrap;'>
+                        
+                        <div style='flex:1; margin-left: 5px;'>
+                            <mat-form-field>
+                                <input type="text" matInput placeholder="Usuario">
+                            </mat-form-field>
+                        </div>
+    
+                        <div style='flex:1; margin-left: 5px;'>
+                            <mat-form-field>
+                                <input type="password" matInput placeholder="Contraseña">
+                            </mat-form-field>
+                        </div>    
+                       
+                    </div>
+
+                    <div style='display: flex; justify-content: space-around; flex-wrap: wrap;'>
+                        
+                        <div style='flex:1; margin-left: 5px;'>
+                            <mat-form-field>
+                                <input type="text" matInput placeholder="foto">
+                            </mat-form-field>
+                        </div>
+    
+                        <div style='flex:1; margin-left: 5px;'>
+                            <mat-form-field>
+                                <input type="text" matInput placeholder="Hoja de vida">
+                            </mat-form-field>
+                        </div>    
+                       
+                    </div>
+    
+                </mat-tab>
+                
+            
+              </mat-tab-group>
+        </div>
+    
+        <div style='flex:.2'>
+          <button mat-mini-fab color="warn" aria-label="Example icon button with a filter list icon" routerLink='detalle'>
+            <mat-icon>save</mat-icon>
+          </button>
+    
+        </div>
+       </div>
+    
+</div>

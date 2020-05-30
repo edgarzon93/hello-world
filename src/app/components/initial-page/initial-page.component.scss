@@ -1,0 +1,31 @@
+div.icon{
+    width: 100px;
+    background-color: gray;
+    height : 100px;
+    border-radius: 25px;
+    cursor: pointer;
+}
+
+div.icon-menu{
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+}
+
+
+h3{
+    text-align: center;
+}
+
+
+@media only screen and (max-width: 600px) {
+   div.icon-menu{
+       transform: scale(0.7);
+   }   
+   .col-sm-3{
+    position: relative;
+    width: 33%;
+    padding-right: 15px;
+    padding-left: 15px;
+   }
+  }

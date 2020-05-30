@@ -1,0 +1,46 @@
+
+    <div style='display: flex; flex-wrap:wrap; justify-content:flex-end' *ngIf='data=="administracion"'>
+        <div style="flex: 1; ">
+            <div class='icon-menu' (click)='redirigir("/administracion/usuarios")'>
+                <div class="icon" matRipple></div>
+                <div>
+                    <h3>Usuarios</h3>
+                </div>
+            </div>
+        </div>
+
+        <div style='flex:1'>
+            <div class='icon-menu' (click)='redirigir("/administracion/terceros")'>
+                <div class="icon" matRipple></div>
+                <div>
+                    <h3>Terceros</h3>
+                </div>
+            </div>
+        </div>
+    
+      
+    </div>
+
+    <div style='display: flex; flex-wrap:wrap; justify-content:flex-end' *ngIf='data=="mantenimiento"'>
+        <div style="flex: 1; ">
+            <div class='icon-menu'>
+                <div class="icon" matRipple></div>
+                <div>
+                    <h3>Equipos</h3>
+                </div>
+            </div>
+        </div>
+
+        <div style='flex:1'>
+            <div class='icon-menu' >
+                <div class="icon" matRipple></div>
+                <div>
+                    <h3>Areas</h3>
+                </div>
+            </div>
+        </div>
+
+       
+    
+      
+    </div>
