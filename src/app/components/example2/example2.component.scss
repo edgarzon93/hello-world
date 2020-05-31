@@ -1,0 +1,56 @@
+div.icon{
+    width: 100px;
+    background: url('https://previews.123rf.com/images/olkita/olkita1709/olkita170900008/85469299-aislado-cabeza-de-colores-y-la-cara-del-pastor-escoc%C3%A9s-collie-sheltie-perro-pastor-sobre-fondo-blanco-.jpg') no-repeat;
+    background-size: contain;
+    height: 150px;
+    border-radius: 50px;
+    cursor: pointer;
+}
+div.icon2{
+    width: 100px;
+    background: url('https://i.pinimg.com/564x/86/b2/89/86b289e72f009ef47b7f1cfb6f735d47.jpg') no-repeat;
+    background-size: contain;
+    height: 150px;
+    border-radius: 50px;
+    cursor: pointer;
+}
+div.icon3{
+    width: 100px;
+    background: url('https://ih1.redbubble.net/image.930381300.4568/mp,504x516,gloss,f8f8f8,t-pad,600x600,f8f8f8.jpg') no-repeat;
+    background-size: contain;
+    height: 150px;
+    border-radius: 50px;
+    cursor: pointer;
+}
+div.icon4{
+    width: 100px;
+    background: url('https://previews.123rf.com/images/valentint/valentint1511/valentint151105130/48619333-icono-inicio-bot%C3%B3n-de-internet-sobre-fondo-blanco-.jpg') no-repeat;
+    background-size: contain;
+    height: 150px;
+    border-radius: 50px;
+    cursor: pointer;
+}
+
+div.icon-menu{
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+}
+
+
+h3{
+    text-align: center;
+}
+
+
+@media only screen and (max-width: 600px) {
+   div.icon-menu{
+       transform: scale(0.7);
+   }   
+   .col-sm-3{
+    position: relative;
+    width: 33%;
+    padding-right: 15px;
+    padding-left: 15px;
+   }
+  }

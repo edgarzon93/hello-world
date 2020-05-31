@@ -3,7 +3,7 @@
         <img src="../assets/images/Fosil-logo-white.png" style='width:50px;' alt="">
         <span style='margin-left:10px'>Fosil</span>
         <span class="example-spacer"></span>
-        <!--  <mat-icon class="example-icon" aria-hidden="false" aria-label="Example heart icon">favorite</mat-icon> -->
+       
         <mat-icon [matMenuTriggerFor]="menu" matRipple class="menu_more_vert" aria-hidden="false"
             aria-label="Example delete icon">more_vert</mat-icon>
         <mat-menu #menu="matMenu">
@@ -60,6 +60,15 @@
                     <div class="icon" matRipple></div>
                     <div>
                         <h3>Personal</h3>
+                    </div>
+                </div>
+            </div>  
+
+            <div class="col-sm-3">
+                <div class='icon-menu'  (click)='openSubmenu("prueba")' >
+                    <div class="icon" matRipple></div>
+                    <div>
+                        <h3>Prueba</h3>
                     </div>
                 </div>
             </div>  

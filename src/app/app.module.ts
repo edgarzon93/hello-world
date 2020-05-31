@@ -14,6 +14,11 @@ import { UsuariosComponent } from './components/modulos/administracion/usuarios/
 import { TercerosComponent } from './components/modulos/administracion/terceros/terceros.component'
 import { HttpClientModule } from '@angular/common/http';
 import { UsuarioDetalleComponent } from './components/modulos/administracion/usuarios/usuario-detalle/usuario-detalle.component';
+import { Example2Component } from './components/example2/example2.component';
+import { TonnyComponent } from './components/example2/tonny/tonny.component';
+
+
+
 
 @NgModule({
   declarations: [
@@ -22,7 +27,9 @@ import { UsuarioDetalleComponent } from './components/modulos/administracion/usu
     SubmenuComponent,
     UsuariosComponent,
     TercerosComponent,
-    UsuarioDetalleComponent
+    UsuarioDetalleComponent,
+    Example2Component,
+    TonnyComponent
   ],
   imports: [
     BrowserModule,

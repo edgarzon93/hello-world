@@ -1,0 +1,68 @@
+<mat-toolbar color="primary">
+    <mat-toolbar-row>
+        <img src="../assets/images/Fosil-logo-white.png" style='width:50px;' alt="">
+        <span style='margin-left:10px'>Fosil</span>
+
+        <span class="example-spacer"></span>
+        <button mat-icon-button [matMenuTriggerFor]="menu" aria-label="Example icon-button with a menu">
+            <mat-icon>more_vert</mat-icon>
+        </button>
+        <mat-menu #menu="matMenu">
+            <button mat-menu-item>
+                <mat-icon>dialpad</mat-icon>
+                <span>Redial</span>
+            </button>
+        </mat-menu>
+
+    </mat-toolbar-row>
+</mat-toolbar>
+
+<h1>estas en prueba fronter 1</h1>
+
+<div class="container">
+
+    <div style='margin-top: 10px;'>
+        <div class="row">
+            <div class="col-sm-3">
+                <div class='icon-menu' (click)='redirigir("/prueba/tonny")'>
+                    <div class="icon" matRipple></div>
+                    <div>
+                        <h3>Tonny</h3>
+                    </div>
+                </div>
+            </div>
+
+
+            <div class="col-sm-3">
+                <div class='icon-menu'>
+                    <div class="icon2" matRipple></div>
+                    <div>
+                        <h3>Fergus</h3>
+                    </div>
+                </div>
+            </div>
+        
+
+            <div class="col-sm-3">
+                <div class='icon-menu'>
+                    <div class="icon3" matRipple></div>
+                    <div>
+                        <h3>Chowder</h3>
+                    </div>
+                </div>
+            </div>
+
+            <div class="col-sm-3">
+                <div class='icon-menu' (click)='redirigir("/")'>
+                    <div class="icon4" matRipple></div>
+                    <div>
+                        <h3>Inicion</h3>
+                    </div>
+                </div>
+            </div>
+
+        </div>
+    </div>
+
+
+</div>
